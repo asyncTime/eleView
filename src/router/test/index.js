@@ -1,0 +1,21 @@
+export default [
+    {
+        name:"addNews",
+        path:"/addNews",
+        component:()=>import("@/views/test/AddNews")
+    },
+    {
+        name:"newsList",
+        path:"/newsList",
+        component:()=>import("@/views/test/NewsList")
+    },
+    {
+        name:"myNews",
+        path:"/newsList",
+        component:()=>import("@/views/test/MyNews")
+    },{
+        name:"detail",
+        path:"/detail",
+        component:()=>import("@/views/test/detail")
+    }
+]

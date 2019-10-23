@@ -1,0 +1,38 @@
+1、店铺类别shopTypeList
+    1、_id:唯一标识（店铺类别ID）
+    2、shopTypeName:店铺类别的名称
+    3、shopTypePic:店铺类别的图片
+        FORM:
+            店铺类别的名称:
+            店铺类别的图片：
+                提交按钮      水果，美食
+2、店铺列表 shopList
+    1、_id:店铺ID
+    2、shopName:店铺的名字
+    3、shopPic:店铺的图片
+    4、shopTypeId:店铺类别ID
+        FORM:
+            店铺的名称：
+            店铺的图片：
+            店铺的类别：下拉列表
+    5、shopTypeName:店铺类别的名称
+    6、isTop:是否推荐
+3、商品类别列表 goodsTypeList
+    1、_id:商品类别id
+    2、goodsTypeName:商品类别的名称
+    3、shopId:店铺的ID
+        FORM:
+            商品类别的名称：input
+            所属店铺：下拉列表
+                提交
+4、管理员列表 adminList
+    1、_id:管理员的ID
+    2、adminName:管理员名字
+    3、passWord:管理员密码
+    4、loginTime:登陆时间
+5、管理员登陆日志列表 adminLog
+    1、_id:日志ID
+    2、adminId
+    3、adminName
+    4、createTime:创建时间
+

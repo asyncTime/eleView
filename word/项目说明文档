@@ -1,0 +1,6 @@
+1、api:接口
+2、html:前端页面
+3、manage:后台管理
+    src:
+        filters:过滤器
+        components:组件

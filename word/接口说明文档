@@ -1,0 +1,15 @@
+1、登陆接口
+    1、请求方式：POST
+    2、请求的数据结构：JSON
+    3、地址：http://127.0.0.1/adminLogin
+    4、发送的数据
+        adminName
+        passWord
+    **********
+    5、接收结果
+        {
+            ok:1,// 1成功，2失败。
+            msg:// 失败时会有
+            token
+            adminName
+        }
